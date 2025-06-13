@@ -1,0 +1,146 @@
+2025-04-27 01:01:15.689 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-27 01:01:15.699 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-27 01:01:15.709 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27 01:01:15.713 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-27 01:01:15.731 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-27 01:01:19.423 INFO c.i.InventoryManagementSystemApplication [main] Starting InventoryManagementSystemApplication using Java 23.0.2 with PID 22284 (C:\Users\chvsa\IdeaProjects\InventoryManagementSystem\target\classes started by Sainath in C:\Users\chvsa\IdeaProjects\InventoryManagementSystem)
+2025-04-27 01:01:19.426 INFO c.i.InventoryManagementSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-27 01:01:21.120 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-27 01:01:21.232 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 6 JPA repository interfaces.
+2025-04-27 01:01:22.271 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-04-27 01:01:22.294 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-04-27 01:01:22.295 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-27 01:01:22.402 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-04-27 01:01:22.403 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2896 ms
+2025-04-27 01:01:22.871 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-27 01:01:22.962 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-27 01:01:23.022 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-04-27 01:01:23.465 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-27 01:01:23.509 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-04-27 01:01:23.716 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bf54260
+2025-04-27 01:01:23.718 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-04-27 01:01:23.875 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-27 01:01:25.290 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-27 01:01:25.458 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27 01:01:26.114 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-27 01:01:26.787 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-27 01:01:27.845 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2025-04-27 01:01:27.977 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2025-04-27 01:01:27.991 INFO c.i.InventoryManagementSystemApplication [main] Started InventoryManagementSystemApplication in 9.264 seconds (process running for 10.298)
+2025-04-27 01:01:28.644 INFO o.a.c.c.C.[.[.[/] [RMI TCP Connection(4)-192.168.1.157] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 01:01:28.645 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-192.168.1.157] Initializing Servlet 'dispatcherServlet'
+2025-04-27 01:01:28.648 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-192.168.1.157] Completed initialization in 3 ms
+2025-04-27 01:01:37.781 INFO c.i.c.UserController [http-nio-8080-exec-2] Login Form accessed
+2025-04-27 01:01:37.782 WARN c.i.c.UserController [http-nio-8080-exec-2] Session expired
+2025-04-27 01:02:55.455 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-27 01:02:55.472 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-27 01:02:55.495 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27 01:02:55.510 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-27 01:02:55.550 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-27 01:03:01.457 INFO c.i.InventoryManagementSystemApplication [main] Starting InventoryManagementSystemApplication using Java 23.0.2 with PID 19428 (C:\Users\chvsa\IdeaProjects\InventoryManagementSystem\target\classes started by Sainath in C:\Users\chvsa\IdeaProjects\InventoryManagementSystem)
+2025-04-27 01:03:01.459 INFO c.i.InventoryManagementSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-27 01:03:03.489 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-27 01:03:03.582 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 6 JPA repository interfaces.
+2025-04-27 01:03:04.630 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2025-04-27 01:03:04.655 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2025-04-27 01:03:04.655 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-27 01:03:04.743 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2025-04-27 01:03:04.744 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3202 ms
+2025-04-27 01:03:05.136 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-27 01:03:05.219 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-27 01:03:05.267 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2025-04-27 01:03:05.647 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-27 01:03:05.685 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2025-04-27 01:03:05.958 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bdda8a7
+2025-04-27 01:03:05.959 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2025-04-27 01:03:06.126 INFO o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.34
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-27 01:03:07.618 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-27 01:03:07.814 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27 01:03:08.722 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-27 01:03:09.603 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-27 01:03:10.725 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2025-04-27 01:03:10.857 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2025-04-27 01:03:10.872 INFO c.i.InventoryManagementSystemApplication [main] Started InventoryManagementSystemApplication in 10.213 seconds (process running for 11.532)
+2025-04-27 01:03:11.353 INFO o.a.c.c.C.[.[.[/] [RMI TCP Connection(4)-192.168.1.157] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27 01:03:11.353 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-192.168.1.157] Initializing Servlet 'dispatcherServlet'
+2025-04-27 01:03:11.356 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(4)-192.168.1.157] Completed initialization in 3 ms
+2025-04-27 01:03:58.366 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-27 01:03:58.375 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+2025-04-27 01:03:58.383 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27 01:03:58.389 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-04-27 01:03:58.405 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2025-04-27 01:04:06.290 INFO c.i.InventoryManagementSystemApplication [main] Starting InventoryManagementSystemApplication using Java 23.0.2 with PID 11596 (C:\Users\chvsa\IdeaProjects\InventoryManagementSystem\target\classes started by Sainath in C:\Users\chvsa\IdeaProjects\InventoryManagementSystem)
+2025-04-27 01:04:06.293 INFO c.i.InventoryManagementSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-04-27 01:04:13.638 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-27 01:04:14.737 INFO c.i.InventoryManagementSystemApplication [main] Started InventoryManagementSystemApplication in 9.191 seconds (process running for 10.435)
+2025-04-27 01:04:30.751 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Cannot call sendRedirect() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendRedirect() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.checkCommitted(ResponseFacade.java:517)
+	at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:377)
+	at org.springframework.web.servlet.view.RedirectView.sendRedirect(RedirectView.java:627)
+	at org.springframework.web.servlet.view.RedirectView.renderMergedOutputModel(RedirectView.java:315)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1437)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-04-27 01:04:31.172 INFO c.i.c.UserController [http-nio-8080-exec-1] Login Form accessed
+2025-04-27 01:04:31.173 WARN c.i.c.UserController [http-nio-8080-exec-1] Session expired
+2025-04-27 01:04:31.901 INFO c.i.c.UserController [http-nio-8080-exec-3] Login Form accessed
+2025-04-27 01:04:31.901 WARN c.i.c.UserController [http-nio-8080-exec-3] Session expired
