@@ -36,7 +36,6 @@ InVee is a Spring Boot-based web application tailored for small businesses to ma
   - `imsdb.sql` – Database schema
   - `inventory.log` – Generated logs
   - `.idea/` – IntelliJ project files
-- `ims_report.pdf` – Documentation report
 - `ER Diagram.png` – Entity relationship diagram
 
 ## 📦 Setup Instructions
