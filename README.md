@@ -89,8 +89,7 @@ This project is built for educational purposes and small business prototyping.
 
 
 ## 🖼️ Pics
-
-![Screenshot (100)](https://github.com/user-attachments/assets/cf046ff7-cecb-4469-99e8-2f58116e6d8f)
-![Screenshot (101)](https://github.com/user-attachments/assets/8a3cf9b3-78ed-4328-8992-54108f773fd5)
-![Screenshot (227)](https://github.com/user-attachments/assets/b269a44f-4f7c-4196-b570-3877f4a47cdb)
-![Screenshot (99)](https://github.com/user-attachments/assets/acb4a502-3a8c-4606-a243-d8be41559e14)
+![Screenshot (99)](https://github.com/user-attachments/assets/731f366d-18e6-46a1-bc75-fa0a3d771e45)
+![Screenshot (100)](https://github.com/user-attachments/assets/afe1e57f-ec3b-482f-9ae2-354a9cf653e1)
+![Screenshot (227)](https://github.com/user-attachments/assets/37eb6a34-4c9a-4586-8bd2-92248486b863)
+![Screenshot (101)](https://github.com/user-attachments/assets/61cc6c8b-5479-476e-8fd9-11d58b978120)
